@@ -4,7 +4,7 @@ import PageLayouts from "../../components/layouts/PageLayouts";
 
 const HomePage = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <div
         className="bg-cover lg:bg-position-[center_bottom_-200px] xl:bg-position-[center_bottom_-350px] md:h-120 flex items-center justify-center bg-no-repeat"
         style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -12,7 +12,7 @@ const HomePage = () => {
         <div className="bg-gradient-to-b from-transparent to-black/50 w-full h-120" />
       </div>
       <PageLayouts>
-        <div className="my-34">
+        <div className="my-34 ">
           <h1 className="text-5xl text-center font-bold text-white text-shadow-lg/30 ">
             Selamat datang di website resmi kami
           </h1>
