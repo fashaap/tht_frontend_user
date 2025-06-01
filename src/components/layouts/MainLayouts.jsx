@@ -19,8 +19,8 @@ const MainLayouts = () => {
 
   console.log("scrolled", scrollY);
 
-  return (
-    <div className="flex flex-col">
+  const NavigationBar = () => {
+    return (
       <div
         className={`fixed top-0 z-10 xl bg-white shadow-md flex items-center justify-between px-7  w-full   ${
           scrollY >= 35
@@ -69,6 +69,12 @@ const MainLayouts = () => {
           </Link>
         </div>
       </div>
+    );
+  };
+
+  return (
+    <div className="flex flex-col">
+      <NavigationBar />
       <Outlet />
     </div>
   );
