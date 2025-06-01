@@ -1,9 +1,8 @@
-import { Link, Outlet} from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import logoTht from "../../assets/LOGO_THT_3.png";
 import { useEffect, useState } from "react";
 
 const MainLayouts = () => {
-
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
@@ -70,12 +69,7 @@ const MainLayouts = () => {
           </Link>
         </div>
       </div>
-
-      <main className="mt-[80px] xl:mt-[100px] w-full items-center">
-        <div className="container mx-auto px-4">
-          <Outlet />
-        </div>
-      </main>
+      <Outlet />
     </div>
   );
 };

@@ -1,8 +1,11 @@
 import React from 'react'
+import PageLayouts from '../../components/layouts/PageLayouts'
 
 const AboutPage = () => {
   return (
-    <div className="h-screen" style={{height: "100vh"}}>AboutPage</div>
+    <PageLayouts>
+      <h1>about page</h1>
+    </PageLayouts>
   )
 }
 

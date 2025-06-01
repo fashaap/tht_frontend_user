@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @theme {
-  --font-family: "Geist", sans-serif;
+  --font-family: "Lexend", sans-serif;
 }
 
 body {
-  @apply bg-gray-100 text-gray-900; /* Ganti sesuai tema */
+  @apply bg-gray-100 text-gray-900; 
 }
 
 @custom-variant dark (&:is(.dark *));
