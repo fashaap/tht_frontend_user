@@ -71,7 +71,6 @@ const MainLayouts = () => {
         </div>
       </div>
 
-      {/* Beri margin top agar konten tidak tertimpa navbar */}
       <main className="mt-[80px] xl:mt-[100px] w-full items-center">
         <div className="container mx-auto px-4">
           <Outlet />
